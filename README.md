@@ -8,8 +8,6 @@ Two-player mode: Play with a friend on the same device.
 Play against the computer: Challenge the AI in single-player mode.
 Responsive Design: Works perfectly across mobile, tablet, and desktop.
 Smooth Animations: Adds to the overall gaming experience with interactive hover and win effects.
-## 📸 Screenshot
-![Tic Tac Toe Screenshot](Screenshot.png)
 
 ## 🛠️ Technologies Used
 #### HTML5: Structure and layout of the game grid.
@@ -36,7 +34,7 @@ Two-player mode: Play with a friend on the same device.
 Play against the computer: Challenge the AI in single-player mode.
 Responsive Design: Works perfectly across mobile, tablet, and desktop.
 Smooth Animations: Adds to the overall gaming experience with interactive hover and win effects.
-📸 Screenshot
+## 📸 Screenshot
 ![Screenshot from 2024-10-13 15-20-37](https://github.com/user-attachments/assets/ad6c67de-3615-49ce-a501-dc34e8998d67)
 
 
