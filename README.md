@@ -9,6 +9,7 @@ Play against the computer: Challenge the AI in single-player mode.
 Responsive Design: Works perfectly across mobile, tablet, and desktop.
 Smooth Animations: Adds to the overall gaming experience with interactive hover and win effects.
 ## 📸 Screenshot
+![Tic Tac Toe Screenshot](Screenshot.png)
 
 ## 🛠️ Technologies Used
 #### HTML5: Structure and layout of the game grid.
