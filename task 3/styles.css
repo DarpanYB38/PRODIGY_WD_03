@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Game Mode Buttons */
+#mode-selection {
+    margin-bottom: 20px;
+}
+
+#mode-selection button {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 15px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+#mode-selection button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.active-mode {
+    background-color: #28a745;
+}
+
+/* Game Board */
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 20px 0;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover Effect on Board Cells */
+.cell:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Game Status */
+#game-status {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #444;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+/* Restart Button */
+#reset {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+#reset:hover {
+    background-color: #e84118;
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    #game-board {
+        grid-template-columns: repeat(3, 80px);
+    }
+    .cell {
+        width: 80px;
+        height: 80px;
+        font-size: 2rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    #reset, #mode-selection button {
+        font-size: 1rem;
+        padding: 8px 20px;
+    }
+}
